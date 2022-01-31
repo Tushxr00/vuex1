@@ -18,8 +18,7 @@ export default {
       return this.$store.state.products;
     },
     saleProducts() {
-            return this.$store.getters.saleProducts
-      
+      return this.$store.getters.saleProducts;
     },
   },
 };
